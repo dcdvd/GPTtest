@@ -9,7 +9,9 @@
   <body>
     <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false;">
       <a-entity camera></a-entity>
-      <a-box color="red" position="0 0.5 -1" rotation="0 45 0" animation="property: rotation; to: 0 405 0; dur: 5000; easing: linear; loop: true"></a-box>
+      <a-box color="red" position="0 0.5 -1" rotation="0 45 0" animation="property: rotation; to: 0 405 0; dur: 5000; easing: linear; loop: true">
+        <a-plane color="gray" position="0 -0.25 0" rotation="-90 0 0" width="2" height="2"></a-plane>
+      </a-box>
     </a-scene>
   </body>
 </html>
